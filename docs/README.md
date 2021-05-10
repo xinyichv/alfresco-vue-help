@@ -1,18 +1,17 @@
 ---
 home: true
 heroImage: /assets/img/hero.png
-heroText: Hero 标题
-tagline: Hero 副标题
+heroText: Alfresco - Vue
+tagline: 企业内容管理（ECM）低代码开发框架
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Alfresco
+  details: 全球最大的开放式企业内容管理系统，目前应用最广泛的开源企业内容管理系统，InfoWorld年度最佳开源软件。
+- title: Vue
+  details: 目前最流行的渐进式JavaScript前端开发框架，通过尽可能简单的API实现响应的数据绑定和组合的视图组件。
+- title: RESTful
+  details: 前后端分离，Alfresco负责后端服务的提供与灵活扩展，Vue负责前端组件化、模块化，构建低代码开发框架。
+footer: Copyright © 2021 | 凌云文档 | All Rights Reserved
 ---
 
-# Hello VuePress

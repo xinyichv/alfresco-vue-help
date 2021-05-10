@@ -11,18 +11,12 @@ module.exports = {
   themeConfig: {
     logo: '/assets/img/hero.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' }
-        ]
-      },
+      { text: '首页', link: '/' },
+      { text: '快速上手', link: '/tutorials' },
+      { text: '指南', link: '/guide/' },
+      { text: '关于我们', link: '/about/' },
       { 
-        text: 'External',
+        text: '链接',
         items: [
           { text: 'Alfresco', link: 'https://www.alfresco.com' },
           { text: 'Vue', link: 'https://cn.vuejs.org' },
