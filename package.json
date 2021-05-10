@@ -1,0 +1,15 @@
+{
+  "name": "alfresco-vue-help",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/xinyichv/alfresco-vue-help.git",
+  "author": "凌云文档 <xinyichv@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
