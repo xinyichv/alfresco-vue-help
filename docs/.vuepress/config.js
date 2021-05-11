@@ -13,7 +13,27 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: '快速上手', link: '/tutorials' },
-      { text: '指南', link: '/guide/' },
+      { text: '使用手册', link: '/guide/' },
+      { 
+        text: '扩展指南',
+        items: [
+          {
+            text: 'Alfresco',
+            items: [
+              { text: '已有API', link: '/develop/alfresco/api' },
+              { text: '扩展API', link: '/develop/alfresco/extension' },
+              { text: 'JavaScript API', link: '/develop/alfresco/jsapi' }
+            ]
+          },
+          {
+            text: 'Vue',
+            items: [
+              { text: '已有组件', link: '/develop/vue/component' },
+              { text: '自定义组件', link: '/develop/vue/extension' }
+            ]
+          }
+        ] 
+      },
       { text: '关于我们', link: '/about/' },
       { 
         text: '链接',
